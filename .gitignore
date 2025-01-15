@@ -25,3 +25,5 @@ jest.config.json
 gulpfile.js
 .eslintrc.json
 /public/js/p3/widget/UserDetails.js
+package-lock.json
+public/js/dijit.diff
