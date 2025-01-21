@@ -72,13 +72,14 @@
 
 .nav-logo-link {
   display: flex;
-  width: 200px;
+  width: fit-content;
   padding-top: 4px;
 }
 
 .nav-logo {
   display: flex;
   flex-direction: column;
+  padding-right: 10px;
   /* justify-content: center; */
 }
 
@@ -339,7 +340,7 @@
 
 #bv-brc-home .bv-brc-info .search .global-search .gs-options-dropdown .dijitInputField {
   font-size: 14px;
-  padding: 12px 4px 12px 4px;
+  padding: 12px 4px;
 }
 
 #bv-brc-home #analyze-section {

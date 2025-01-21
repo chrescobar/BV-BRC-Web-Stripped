@@ -110,14 +110,14 @@
 }
 
 .ValueWrapper > SPAN:hover {
-	color: red;
+	color: var(--cepi-bone);
 	cursor: pointer;
 }
 
 .selectedList {
 	padding: 0;
 	white-space: nowrap;
-	background: #ffcb00;
+	background: var(--cepi-yellow);
 	color: #333;
 	text-align: center;
 	min-height: 21px;
@@ -126,7 +126,7 @@
 
 .fieldHeader {
 	font-size: 0.75em;
-	color: rgb(52,105,142);
+	color: var(--cepi-sapphire);
 }
 .fieldTitle {
 	padding: 2px;

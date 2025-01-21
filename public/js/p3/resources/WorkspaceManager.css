@@ -153,7 +153,7 @@ color:#fff;font-weight:600;background:#34698e;
 	padding:4px;
 	margin-left: -1px;
 	border-left: 0 solid #888;
-	border-top: 2px solid #76a72d; /*#34698e;*/
+	border-top: 2px solid var(--cepi-yellow); /*#34698e;*/
 	overflow: auto;
 }
 .ItemTypeIcon {
@@ -336,7 +336,7 @@ th.dgrid-cell.wsItemMembers {
 	cursor: pointer;
 	width: 50px;
 	border-radius: 4px;
-	border: 1px solid #76a72d;
+	border: 1px solid var(--cepi-light-blue);
 }
 
 .ActionButtonWrapper.depressed:hover,
@@ -352,11 +352,11 @@ th.dgrid-cell.wsItemMembers {
 .ActionButtonWrapper.disabled .ActionButton.fa,
 .ActionButtonWrapper.disabled  {
 	color: #ccc;
-	border: 1px solid #76a72d;
+	border: 1px solid var(--cepi-light-blue);
 }
 
 .ActionBar .ActionButtonWrapper.disabled:hover {
-	border: 1px solid #76a72d;
+	border: 1px solid var(--cepi-light-blue);
 }
 
 .ActionButtonContainer {
@@ -382,7 +382,7 @@ th.dgrid-cell.wsItemMembers {
 .GeneExpFilterPanel .ActionButtonWrapper .ActionButton,
 .BrowserHeader .ActionButtonWrapper:hover,
 .BrowserHeader .ActionButtonWrapper .ActionButton {
-	color: #34698e;
+	color: var(--navy);
 }
 
 .ActionButton.fa.ActiveActionButton {
@@ -400,7 +400,7 @@ th.dgrid-cell.wsItemMembers {
 
 .GeneExpFilterPanel .ActionButtonText,
 .BrowserHeader .ActionButtonText {
-	color: #34698e;
+	color: var(--cepi-sapphire);
 }
 
 .claro .dijitTooltipBelow.dijitTooltipABRight .dijitTooltipConnector {

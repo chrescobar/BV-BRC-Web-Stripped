@@ -292,7 +292,8 @@ define([
            Topic.publish(msg.topic, msg.payload);
           }
         } catch (err){
-          console.log("Error handling window message: ", msg,err)
+          // console.log("Error handling window message:")
+          // console.log(msg, err)
         }
       }, '*');
 
