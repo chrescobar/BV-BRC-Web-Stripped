@@ -882,6 +882,30 @@ table {
     padding: 0 5px;
 }
 
+.navbarMenuHeader,
+.section-title {
+	/*
+    background-color: #34698e;
+    color: #efefef;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 2px 2px 2px #555;
+    margin-bottom: 8px;
+	*/
+
+    background: var(--blue-tint);
+    border-radius: 0;
+    text-align: left;
+    box-shadow: none;
+    margin-top: 12px;
+    padding-left: 4px;
+    color: var(--cepi-white);
+    font-weight: 600;
+}
+
 .menuHeader,
 .section-title {
 	/*
